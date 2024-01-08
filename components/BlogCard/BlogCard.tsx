@@ -17,7 +17,7 @@ const BlogCard = () => {
 
 
   return (
-    <div className={"flex flex-col p-6 gap-6 sm:max-w-[384px] max-w-[327px] sm:mx-0 mx-6 bg-white rounded-[20px] border-2 border-black " + shadowSize}>
+    <div className={"flex flex-col p-6 gap-6 sm:max-w-[384px] max-w-[327px] sm:mx-0 mx-6 bg-white rounded-[20px] border border-black " + shadowSize}>
       <BlogImage source="/blogimage.svg" />
       <BlogDesc
         blogCategory="Learning"
